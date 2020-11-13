@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   /* background:green;*/
+   background-image: url("https://image.freepik.com/foto-gratis/fondo-mesa-poker-verde_87414-3611.jpg");
+   }
+h1, #subtitle{
+    font-family: 'Bangers', cursive;
+    
+    /*font-family: 'Gentium Basic', serif;*/
+    text-align: center;
+    color: white;
+    text-shadow: 0.1em 0.1em 0.3em black;
+    
+}
+
+.card{
+background: white;
+margin: auto;
+width: 250px;
+height: 400px;
+border-radius: 7px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#symbol1{
+    font-size: 70px;
+    padding: 5px;
+    margin: 0;
+    margin-left: 5px;
+}
+#symbol2{
+    transform: rotate(180deg);
+    font-size: 70px;
+    padding: 5px;
+    text-align: left;
+    margin-right: 5px;
+    
+}
+#symbolCenter{
+    font-size: 70px;
+    text-align: center;
+    
+}
+
